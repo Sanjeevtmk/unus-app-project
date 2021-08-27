@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Unus</string>
+    <string name="textview">Panjab University opened a Regional Centre for imparting quality technical education to kandi area hoshiarpur with the name of Swami Sarvanand Giri Panjab University Regional Centre in year 2006 with four branches of engineering. In 2007 Panjab university started two new courses in LAW as BALLB 5 year integrated course and 3 Years LLB course, and Master of computer applications (MCA).<br></br>
+
+The vison of Regional Centre has been made keeping in mind Vision 2020 of Panjab University<br></br>
+
+<b> Vision:</b><br></br>
+To develop young \nprofessionals through  experiential learning hinged on\n evolving societal mores as per  global needs.<br></br>
+
+<b> Mission: </b><br></br>
+To promote professional education  the use of ethical  based technology oriented  education and to prepare students for a career as per global requirement.<br></br>
+        <b>What sets us apart?</b><br></br>
+
+NAAC - A Grade to Panjab University.<br></br>
+Admissions based purely on National rankings - AIEEE.<br></br>
+100% Post Graduate and research oriented faculty.<br></br>
+State of the art infrastructure, a completely networked campus and top of the line computer centres.<br></br>
+Multi-disciplinary batch.<br></br>
+Balanced course structure.<br></br>
+Rigorous training in quantitative as well as qualitative analysis<br></br>
+
+    </string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+</resources>

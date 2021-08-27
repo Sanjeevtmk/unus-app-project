@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.madproject.home">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="67dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/admin" />
+
+    <ScrollView
+        android:layout_width="393dp"
+        android:layout_height="566dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/about_btn"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="215dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/customised_button"
+                android:hapticFeedbackEnabled="false"
+                android:soundEffectsEnabled="true"
+                android:text="About PUSSGRC"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:backgroundTint="#EA4C46"
+                app:iconPadding="8dp"
+                app:shapeAppearance="@style/TextAppearance.AppCompat.Button" />
+
+
+            <Button
+                android:id="@+id/notice"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="215dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/customised_button"
+                android:hapticFeedbackEnabled="false"
+                android:soundEffectsEnabled="true"
+                android:text="Notice Board"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:backgroundTint="#EA4C46"
+                app:iconPadding="8dp" />
+
+            <Button
+                android:id="@+id/fee"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="215dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/customised_button"
+                android:hapticFeedbackEnabled="false"
+                android:soundEffectsEnabled="true"
+                android:text="fee submission"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:backgroundTint="#EA4C46"
+                app:iconPadding="8dp" />
+
+            <Button
+                android:id="@+id/result"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="215dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/customised_button"
+                android:hapticFeedbackEnabled="false"
+                android:soundEffectsEnabled="true"
+                android:text="results"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:backgroundTint="#EA4C46"
+                app:iconPadding="8dp" />
+
+            <Button
+                android:id="@+id/question"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="215dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/customised_button"
+                android:hapticFeedbackEnabled="false"
+                android:soundEffectsEnabled="true"
+                android:text="question paper"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:backgroundTint="#EA4C46"
+                app:iconPadding="8dp" />
+
+            <Button
+                android:id="@+id/books"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="215dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/customised_button"
+                android:hapticFeedbackEnabled="false"
+                android:soundEffectsEnabled="true"
+                android:text="e-books"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:backgroundTint="#EA4C46"
+                app:iconPadding="8dp" />
+
+            <Button
+                android:id="@+id/notes"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="215dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/customised_button"
+                android:hapticFeedbackEnabled="false"
+                android:soundEffectsEnabled="true"
+                android:text="handwritten notes"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:backgroundTint="#EA4C46"
+                app:iconPadding="8dp" />
+
+            <Button
+                android:id="@+id/contacts"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="215dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+
+                android:background="@drawable/customised_button"
+                android:hapticFeedbackEnabled="false"
+                android:soundEffectsEnabled="true"
+                android:text="faculty/staff contacts"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:backgroundTint="#EA4C46"
+                app:iconPadding="8dp" />
+
+            <Button
+                android:id="@+id/logout"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="215dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/customised_button"
+                android:hapticFeedbackEnabled="false"
+                android:soundEffectsEnabled="true"
+                android:text="Logout"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:backgroundTint="#EA4C46"
+                app:iconPadding="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="187dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="60dp"
+        android:text="Hello Sanjeev"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/roll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="187dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="Roll no. SG18342"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
